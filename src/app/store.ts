@@ -1,11 +1,11 @@
 import { configureStore, ThunkAction, Action } from "@reduxjs/toolkit";
 import videoPlayer from "../features/videoPlayer";
-import counterSlice from "../features/counterSlice";
+import userSlice from "../features/userSlice";
 
 export const store = configureStore({
   reducer: {
     playerState: videoPlayer,
-    counter: counterSlice,
+    user: userSlice,
   },
 });
 

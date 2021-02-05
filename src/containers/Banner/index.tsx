@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { IResponseResult } from "../../models";
+import requests, { IMAGE_BASE_URL } from "../../utils/constants";
 import { truncate } from "../../utils/helperFunctions";
-import requests, { getData, IMAGE_BASE_URL } from "../../utils/requests";
+import { getData } from "../../utils/requests";
 import "./styles.css";
 
 const Banner = () => {

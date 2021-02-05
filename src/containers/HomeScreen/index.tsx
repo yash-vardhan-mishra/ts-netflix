@@ -7,10 +7,10 @@ import {
 } from "../../features/videoPlayer";
 import VideoPlayerComponent from "../../components/VideoPlayerComponent";
 import { CATEGORIES } from "../../models";
-import requests from "../../utils/requests";
 import Banner from "../Banner";
 import Nav from "../Nav";
 import Row from "../Row";
+import requests from "../../utils/constants";
 
 const HomeScreen = () => {
   const dispatch = useDispatch();

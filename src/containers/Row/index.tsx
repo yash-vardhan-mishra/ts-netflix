@@ -3,9 +3,10 @@ import { useDispatch, useSelector } from "react-redux";
 import { IResponseResult } from "../../models";
 import { selectPlayerState, setVideoData } from "../../features/videoPlayer";
 import { truncate } from "../../utils/helperFunctions";
-import { fetchVideo, getData, IMAGE_BASE_URL } from "../../utils/requests";
+import { fetchVideo, getData } from "../../utils/requests";
 import "./styles.css";
 import { openPlayer } from "../../features/videoPlayer";
+import { IMAGE_BASE_URL } from "../../utils/constants";
 
 interface RowProps {
   title: string;
